@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
 import DailyUpdatesTable from './components/DailyUpdatesTable';
-//import DailyUpdateForm from './components/DailyUpdateForm';
+import DailyUpdateForm from './components/DailyUpdateForm';
 
 function App() {
   return (
     <div className="App">
       <h1>Daily Update DAta (Micro Frontend App)</h1>
-      {/* <DailyUpdateForm /> */}
+      <DailyUpdateForm />
       <DailyUpdatesTable />
     </div>
   );

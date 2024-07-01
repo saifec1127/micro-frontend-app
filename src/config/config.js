@@ -1,8 +1,8 @@
 const config = {
     localApi: {
-        apiUrl: "http://localhost:5000",
+        baseUrl: "http://localhost:5000",
         endpoints: {
-            dailyupdates:"/api/dailyUpdates"
+            dailyUpdates: "/api/dailyUpdates"
         }
     }
 };
