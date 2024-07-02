@@ -6,7 +6,7 @@ import DailyUpdateForm from './components/DailyUpdateForm';
 function App() {
   return (
     <div className="App">
-      <h1>Daily Update DAta (Micro Frontend App)</h1>
+      <h1>Daily Update Data---Micro Frontend App</h1>
       <DailyUpdateForm />
       <DailyUpdatesTable />
     </div>
